@@ -1,0 +1,21 @@
+{
+    "name": "monument-dark",
+    "displayName": "monument_dark",
+    "description": "based on the monument dark theme from slack",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monument theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monument theme-color-theme.json"
+            }
+        ]
+    }
+}
